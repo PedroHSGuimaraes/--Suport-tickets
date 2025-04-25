@@ -1,0 +1,12 @@
+{
+  "name": "--suport-tickets",
+  "version": "1.0.0",
+  "description": "APi de tickets de suporte",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Pexuleco",
+  "license": "ISC"
+}
