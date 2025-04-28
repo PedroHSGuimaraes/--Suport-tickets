@@ -1,1 +1,22 @@
-{"tickets":[{"id":"52f8dddf-796c-4f11-8756-2494c7e0e8be","equipament":"Computador","description":"Computador nao liga","user_name":"Pexuleco","status":"open","created_at":"2025-04-26T00:03:38.680Z","updated_at":"2025-04-26T00:03:38.680Z"},{"id":"2b4112d3-04c4-4304-80ab-a387eea80a63","equipament":"Teclado","description":"Telca de espaço nao funciona","user_name":"Perceu","status":"open","created_at":"2025-04-28T19:59:07.277Z","updated_at":"2025-04-28T19:59:07.277Z"}]}
+{
+  "tickets": [
+    {
+      "id": "52f8dddf-796c-4f11-8756-2494c7e0e8be",
+      "equipament": "Computador",
+      "description": "Computador nao liga",
+      "user_name": "Pexuleco",
+      "status": "closed",
+      "created_at": "2025-04-26T00:03:38.680Z",
+      "updated_at": "2025-04-26T00:03:38.680Z"
+    },
+    {
+      "id": "2b4112d3-04c4-4304-80ab-a387eea80a63",
+      "equipament": "Teclado",
+      "description": "Telca de espaço nao funciona",
+      "user_name": "Perceu",
+      "status": "open",
+      "created_at": "2025-04-28T19:59:07.277Z",
+      "updated_at": "2025-04-28T19:59:07.277Z"
+    }
+  ]
+}
