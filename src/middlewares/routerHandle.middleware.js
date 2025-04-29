@@ -11,10 +11,11 @@ function routerHandle(request, response) {
 
   if (route) {
     const routeParams = request.url.match(route.path);
-    const { query } = routeParams.groups;
+    const { query, ...params } = routeParams.groups;
 
+    request.params = params;
     request.query = query ? extractQueryParams(query) : {};
-    request.params = routeParams.groups;
+
     return route.controller({ request, response, database });
   }
   return response.writeHead(404).end();
